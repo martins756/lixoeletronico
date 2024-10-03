@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de pagamento</h1>
+    <fieldset>
+        <legend><strong>Dados do Cliente</strong></legend>
+        <form action="#">
+        <label>Nome Completo:</label>
+        <input type="text" name="nome" placeholder=" "
+        required> <br>
+        <br>
+         </body><label>Email:</label>
+        <input type="email" name="email" / placeholder="a@a.gmail"
+required> <br>
+<br>
+<label>Telefone:</label>
+<input type="tel" name="telefone" / placeholder="(XX)
+XXXXX- XXXX" required>
+</fieldset>
+<fieldset>
+    <legend><strong>Forma de pagamento</strong></legend>
+
+<input type="radio" name="cartao" id="cartao"
+value="cartao" />
+<label for="cartao">Cartão de crédito</label>
+<br>
+<input type="radio" name="pix" id="pix"
+value="pix" />
+<label for="pix">PIX</label>
+<fieldset>
+ <legend><strong>Dados do cartão</strong></legend>
+        <label>Número do cartão:</label>
+        <input type="tel" name="telefone" / placeholder="0000
+000000- 0000" required> <br>
+<br> 
+<label>Data de expiração:</label>
+<input type="date" name="dt_nasc" placeholder="MM/AA" required> <br>
+<br>
+<label>Código de segurança:</label>
+<input type="tel" name="telefone" / placeholder="
+123" required>
+
+</fieldset>
+<button><a href="pagamento.html">Pagar</a></button>
+</fieldset>
+<footer>
+    <p>© 2024 Sua Empresa. Todos os direitos reservados.</p>
+    <p><a href="privacidade.html" style="color: white;">Política de Privacidade</a> | <a href="termos.html" style="color: white;">Termos de Serviço</a></p>
+</footer>
+<body>
+  
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </body>
+
+</form>
+</html>
